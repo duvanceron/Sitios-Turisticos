@@ -1,0 +1,31 @@
+reserva narural el danubio ( latitud  1°30'36.64"N longitud   75°44'12.44"O)
+reserva natural y ecoturistica la avispa( latitud  1°37'8.92"N  longitud 75°40'9.08"O)
+quebrada el dedo ( latitud    1°37'52.51"N longitud 75°38'15.36"O)
+pedroglifos el encanto ( latitud   1°37'21.96"N longitud 75°37'7.85"O)
+Balneario  las pailas ( latitud    1°33'7.57"N longitud   75°42'28.18"O)
+Cascada la diabla (latitud  1°19'38.73"N longitud  75°44'36.06"O)
+Moyas Aguaas claras(latitud   1°32'5.56"N longitud  75°28'27.88"O)
+Museo,Cra. 11 #1229 Florencia, Caquetá (latitud   1°36'49.09"N longitud  75°36'45.42"O )
+Quebrada las margaritas (latitud   1°31'26.62"N longitud  75°27'7.71"O)
+Balneario Rio Bodoquedo Morelia, Calle 2, Morelia, Caquetá, Colombia(latitud 1°29'13.75"N longitud  75°43'40.55"O)
+Parque Nacional Natural Serranía de Chiribiquete (latitud     0°44'45.70"N longitud  72°44'18.96"O )
+Belen de los Andaquies (latitud   1°24'44.89"N longitud  75°52'4.69"O)
+Parque Nacional Natural Cordillera De Los Pichachos(latitud   2°58'42.89"N longitud  74°52'17.98"O)
+
+----------------------------------------------------------------------------------------------------------------------
+reserva narural el danubio ( 1.5101777777777778,-75.7367888888889)
+reserva natural y ecoturistica la avispa(1.6191444444444445,-75.6691888888889)
+quebrada el dedo ( 1.6312527777777779,-75.6376)
+pedroglifos el encanto (1.6227666666666667,-75.61884722222221)
+Balneario  las pailas (1.5521027777777778,-75.70782777777778)
+
+
+----- Las que faltan
+Cascada la diabla (1.327425-75.74335)
+Moyas Aguaas claras(1.5348777777777776-75.47441111111111)
+Museo,Cra. 11 #1229 Florencia, Caquetá (1.6136361111111113-75.61261666666667)
+Quebrada las margaritas (1.524061111111111-75.45214166666666)
+Balneario Rio Bodoquedo Morelia, Calle 2, Morelia, Caquetá, Colombia(1.4871527777777778-75.72793055555556)
+Parque Nacional Natural Serranía de Chiribiquete (0.7460277777777777-72.7386)
+Belen de los Andaquies (1.4124694444444443-75.86796944444444)
+Parque Nacional Natural Cordillera De Los Pichachos(2.978580555555556-74.87166111111111)

@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Sitios turístico</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css"
+        integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+        crossorigin="" />
+    <link rel="stylesheet" href="CSS/Style.css">
+    <link rel="stylesheet" href="BOOKSTORES/jquery/jquery-ui.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <div id="mapid"></div>
+
+    <button class="btn btn-success btn-lg" data-toggle="modal" data-target="#modalForm">
+        Open Contact Form
+    </button>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalForm" role="dialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Modal Header -->
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">×</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="myModalLabel">Sitio Turístico</h4>
+                </div>
+
+                <!-- Modal Body -->
+                <div class="modal-body">
+                    <p class="statusMsg"></p>
+                    <form role="form">
+                        <div class="form-group">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control" id="nombre"
+                                placeholder="Nombre del sitio turístico" />
+                        </div>
+                        <div class="form-group">
+
+                            <label for="Municipio">Municipio</label>
+                            <input type="text" class="form-control" id="Municipio" placeholder="Municipio" />
+                        </div>
+                        <div class="form-group">
+                            <label for="Message">Descripcion</label>
+                            <textarea class="form-control" id="Message" placeholder="Descripcion"></textarea>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="input-group">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button">Latitud</button>
+                                    </span>
+                                    <input type="text" class="form-control" disabled="true" id="Latitud"
+                                        placeholder="Ingrese la latitud">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="input-group">
+                                    <input type="text" class="form-control" disabled="true" id="Longitud"
+                                        placeholder="Ingrese la longitud">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button">Longitud</button>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container kv-main">
+                            <div class="page-header">
+                                <h4>Imagen del sitio turistico
+                                </h4>
+                            </div>
+                            <form enctype="multipart/form-data">
+                                <input id="file" class="file" type="file" data-min-file-count="1"> <br />
+                               
+
+                            </form>
+
+                        </div>
+                </div>
+
+                <!-- Modal Footer -->
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary submitBtn" onclick="RegisterSite()">Registrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 
+    <script type="text/javascript" src="BOOKSTORES/jquery/jquery.js"></script>
+    <script type="text/javascript" src="BOOKSTORES/jquery/jquery-ui.js"></script> -->
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
+        integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
+        crossorigin="">
+        </script>
+    <script type="text/javascript" src="JS/touristicMap.js"></script>
+
+</body>
+
+</html>
